@@ -1,7 +1,7 @@
 {
-  "name": "wdio-allure-reporter",
-  "version": "0.1.2",
-  "description": "A WebdriverIO plugin. Report results in Allure format.",
+  "name": "wdio-workflo-allure-reporter",
+  "version": "0.0.1",
+  "description": "This is a customized version of wdio-workflo-allure-reporter for use with workflo framework.",
   "main": "build/reporter.js",
   "scripts": {
     "build": "grunt",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/wdio-allure-reporter.git"
+    "url": "https://github.com/flohil/wdio-workflo-allure-reporter"
   },
   "directories": {
     "lib": "./lib"
@@ -21,14 +21,15 @@
     "webdriverio",
     "wdio",
     "wdio-plugin",
-    "wdio-reporter"
+    "wdio-reporter",
+    "workflo"
   ],
-  "author": "Christian Bromann <christian@saucelabs.com>",
+  "author": "Florian Hilbinger <florian.hilbinger@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webdriverio/wdio-allure-reporter/issues"
+    "url": "https://github.com/flohil/wdio-workflo-allure-reporter/issues"
   },
-  "homepage": "https://github.com/webdriverio/wdio-allure-reporter#readme",
+  "homepage": "https://github.com/flohil/wdio-workflo-allure-reporter",
   "dependencies": {
     "allure-js-commons": "^1.2.0",
     "babel-runtime": "^5.8.25"
@@ -57,15 +58,5 @@
     "load-grunt-tasks": "^3.2.0",
     "wdio-mocha-framework": "^0.3.5",
     "webdriverio": "^4.1.1"
-  },
-  "contributors": [
-    "christian-bromann <contact@christian-bromann.com>",
-    "George Crawford <george.crawford@ft.com>",
-    "just-boris <just-boris@hotmail.com>",
-    "Ilgiz Vafin <vafin@btf-consulting.ru>",
-    "Christian Bromann <github@christian-bromann.com>",
-    "George Crawford <g.o.crawford@gmail.com>",
-    "Boris Serdiuk <just-boris@hotmail.com>",
-    "Stefan Grönke <stefan@gronke.org>"
-  ]
+  }
 }
