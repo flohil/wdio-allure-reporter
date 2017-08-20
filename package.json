@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/flohil/wdio-workflo-allure-reporter",
   "dependencies": {
-    "allure-js-commons": "^1.2.0",
+    "allure-js-commons-workflo": "^0.0.1",
     "babel-runtime": "^5.8.25",
     "json3": "^3.3.2",
     "mocha": "^3.5.0"
