@@ -1,6 +1,6 @@
 {
   "name": "wdio-workflo-allure-reporter",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "description": "This is a customized version of wdio-workflo-allure-reporter for use with workflo framework.",
   "main": "build/reporter.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/flohil/wdio-workflo-allure-reporter",
   "dependencies": {
-    "allure-js-commons-workflo": "^0.0.1",
+    "allure-js-commons-workflo": "^0.0.2",
     "babel-runtime": "^5.8.25",
     "json3": "^3.3.2",
     "mocha": "^3.5.0",
