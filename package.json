@@ -1,6 +1,6 @@
 {
   "name": "wdio-workflo-allure-reporter",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "This is a customized version of wdio-workflo-allure-reporter for use with workflo framework.",
   "main": "build/reporter.js",
   "scripts": {
